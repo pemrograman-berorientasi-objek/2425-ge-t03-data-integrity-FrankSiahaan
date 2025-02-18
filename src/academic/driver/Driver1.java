@@ -79,21 +79,21 @@ public class Driver1 {
             System.out.println(course.get(i));
         }
 
-        // for (Student j : student) {
-        //     System.out.println(j.toString());
-        // }
-
-        for (int j = student.size(); j >= 0; j--) {
-            System.out.println(student.get(j));
+        for (Student j : student) {
+            System.out.println(j.toString());
         }
 
-        // for (Enrollment k : enrol) {
-        //     System.out.println(k.toString());
+        // for (int j = student.size() - 1; j >= 0; j--) {
+        //     System.out.println(student.get(j));
         // }
 
-        for (int k = enrol.size(); k >= 0; k--) {
-            System.out.println(enrol.get(k));
+        for (Enrollment k : enrol) {
+            System.out.println(k.toString());
         }
+
+        // for (int k = enrol.size(); k >= 0; k--) {
+        //     System.out.println(enrol.get(k));
+        // }
 
         input.close();
     }
