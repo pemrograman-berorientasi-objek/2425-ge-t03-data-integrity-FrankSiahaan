@@ -17,7 +17,24 @@ public class Student {
         this.prodi = _prodi;
     }
 
-    public String toString2() {
+    public String getnim() {
+        return this.nim;
+    }
+
+    public String getnama () {
+        return this.nama;
+    }
+
+    public String gettahun() {
+        return this.tahun;
+    }
+
+    public String getprodi () {
+        return this.prodi;
+    }
+ 
+    @Override
+    public String toString() {
         return this.nim + "|" + this.nama + "|" + this.tahun + "|" + this.prodi;
     }
 }

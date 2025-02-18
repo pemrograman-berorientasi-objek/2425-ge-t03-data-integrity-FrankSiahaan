@@ -17,7 +17,24 @@ public class Enrollment {
         this.sems = _sems;
     }
 
-    public String toString3() {
+    public String getids() {
+        return this.ids;
+    }
+
+    public String getnims() {
+        return this.nims;
+    }
+
+    public String getyear() {
+        return this.year;
+    }
+
+    public String getsems() {
+        return this.sems;
+    }
+
+    @Override
+    public String toString() {
         return this.ids + "|" + this.nims + "|" + this.year + "|" + this.sems + "|" + "None";
     }
 

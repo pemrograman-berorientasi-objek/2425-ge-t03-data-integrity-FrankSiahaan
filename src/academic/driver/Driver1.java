@@ -70,17 +70,21 @@ public class Driver1 {
                 enrol.add(new Enrollment(ids,nims,year,sems));
             }
         }
-        for (Course i : course) {
-            System.out.println(i.toString1());
-            input.close();
+        // for (Course i : course) {
+        //     System.out.println(i.toString1());
+        //     input.close();
+        // }
+
+        for (int i = course.size() - 1; i >= 0; i--) {
+            System.out.println(course.get(i));
         }
 
         for (Student j : student) {
-            System.out.println(j.toString2());
+            System.out.println(j.toString());
         }
 
         for (Enrollment k : enrol) {
-            System.out.println(k.toString3());
+            System.out.println(k.toString());
         }
 
         input.close();

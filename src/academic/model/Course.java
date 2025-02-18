@@ -17,7 +17,24 @@ public class Course {
         this.nilai = _nilai;
     }
 
-    public String toString1() {
+    public String getid() {
+        return this.id;
+    }
+
+    public String getmatkul() {
+        return this.matkul;
+    }
+
+    public String getsks() {
+        return this.sks;
+    }
+
+    public String getnilai() {
+        return this.nilai;
+    }
+
+    @Override
+    public String toString() {
         return this.id + "|" + this.matkul + "|" + this.sks + "|" + this.nilai;
     }
 }

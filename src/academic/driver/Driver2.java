@@ -71,16 +71,16 @@ public class Driver2 {
             }
         }
         for (Course i : course) {
-            System.out.println(i.toString1());
+            System.out.println(i.toString());
             input.close();
         }
 
         for (Student j : student) {
-            System.out.println(j.toString2());
+            System.out.println(j.toString());
         }
 
         for (Enrollment k : enrol) {
-            System.out.println(k.toString3());
+            System.out.println(k.toString());
         }
 
         input.close();
